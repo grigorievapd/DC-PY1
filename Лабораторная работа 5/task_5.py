@@ -1,7 +1,8 @@
-import string
-import random
+
 
 def get_random_password(i=None) -> str:
+    import string
+    import random
     symbols_available = string.ascii_uppercase + string.ascii_lowercase + string.digits
     if i is None:
         random_list = random.sample(symbols_available, 8)
