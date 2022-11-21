@@ -11,4 +11,4 @@ def get_random_password(i=None) -> str:
         random_password = ''.join(str(symbol) for symbol in random_list)
     return random_password
 
-print(get_random_password(15))
+print(get_random_password(4))
